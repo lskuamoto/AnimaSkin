@@ -46,3 +46,7 @@ The skin component will be used to create the skins for the character. It has th
 ### Adding References to a Skin
 
 You can add multiple *Sprite Mesh Instance* references to the *Skin Manager* by selecting the parent object that contains the *Skins* in the editor, then press the "+" button in the list and click on "From Selection". This will add references to all the *Sprite Mesh Instances* found as children of the object selected. What a great feature!
+
+### Setting up SpriteMeshes with bones 
+It is necessary to bind the bones to the spritemeshes of the new skin, or else your Anima2D animation will not work.
+For more information, you can check the following tutorial : https://www.youtube.com/watch?v=dI4u5Fsxebw
